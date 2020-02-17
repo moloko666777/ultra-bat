@@ -62,7 +62,7 @@
 
 .menu-section {
   position: relative;
-  padding-top: 41.5rem;
+  padding-top: 53.5rem;
 }
 .menu-section .menu__icon-wrapper:last-child, .menu-section .menu__icon-wrapper:nth-child(3) {
   border-right: none;
@@ -582,7 +582,7 @@
   background: #fff;
   border-radius: 0.8rem;
   box-shadow: 0 1rem 5rem rgba(88, 88, 88, 0.1);
-  padding: 0 5.8rem 3.5rem 5.2rem;
+  padding: 0 5.8rem 0 5.2rem;
 }
 .email-tabs-section .accordion-menu li {
   border-bottom: 1px solid #ccc;
@@ -619,6 +619,9 @@
 }
 .email-tabs-section .submenuItems {
   display: none;
+}
+.email-tabs-section .submenuItems {
+  padding-bottom: 0.1rem;
 }
 .email-tabs-section .submenuItems button {
   display: block;
@@ -877,6 +880,9 @@
   padding-left: 2.5rem;
 }
 .facebook-section .first-link {
+  border-bottom: 0.1rem solid #DBE4EB;
+}
+.facebook-section .step-1 {
   border-bottom: 0.1rem solid #DBE4EB;
 }
 
